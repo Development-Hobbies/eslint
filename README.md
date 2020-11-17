@@ -72,4 +72,4 @@ You can use configurations created by the others by extending them. Can be find 
 	yarn run eslint yourfile.js
 ```
 
-## More Detail Info: (ESLint)[https://eslint.org/docs/user-guide/getting-started]
+## More Detail Info: [ESLint](https://eslint.org/docs/user-guide/getting-started)
