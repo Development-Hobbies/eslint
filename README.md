@@ -4,7 +4,7 @@
 
 Initialize package
 
-```bash
+```JavaScript
 	// npm
 	npm init -y
 	// yarn
@@ -13,7 +13,7 @@ Initialize package
 
 Install eslint
 
-```bash
+```JavaScript
 	// npm
 	npm install eslint --save-dev
 	// yarn
@@ -23,7 +23,7 @@ Install eslint
 Initialize basic config for eslint
 
 
-```bash
+```JavaScript
 	// npm
 	npx eslint --init
 	//yarn
@@ -36,7 +36,7 @@ Initialize basic config for eslint
 
 Configure `.eslintrc.{js,yml,json}`
 
-```JSON
+```JavaScript
 {
 	"rules": {
 		"semi": ["error", "always"],
@@ -53,7 +53,7 @@ Configure `.eslintrc.{js,yml,json}`
 
 [More configuration examples](https://eslint.org/docs/user-guide/configuring)
 
-```JSON
+```JavaScript
 {
 	"extends": "eslint:recommended"
 }
@@ -62,3 +62,14 @@ Configure `.eslintrc.{js,yml,json}`
 Rules with check on this [page](https://eslint.org/docs/rules/) will be extended to your config.
 
 You can use configurations created by the others by extending them. Can be find [here](https://www.npmjs.com/search?q=eslint-config)
+
+## Running ESLint
+
+```JavaScript
+	// npm
+	npx eslint yourfile.js
+	// yarn
+	yarn run eslint yourfile.js
+```
+
+## More Detail Info: (ESLint)[https://eslint.org/docs/user-guide/getting-started]
